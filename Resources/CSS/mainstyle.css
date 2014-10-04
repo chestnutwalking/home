@@ -1,0 +1,64 @@
+body, html{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+    background-image: url('../Pictures/background.jpg');
+       background-size: 100% 100%;
+       background-repeat: no-repeat;
+}h1{
+	font-size: 350%;
+	text-align:center;
+	font-family:Raleway;
+	font-weight:2000;
+	color:white;
+	padding:0px;
+}h2{
+	font-size: 120%;
+	font-family:Raleway;
+	font-weight:bold;
+	vertical-align:middle;
+	text-align:left;
+	color:white;
+	display:inline;
+}h2.l1{
+	font-size:150%;
+	display:inline;
+}h3{
+	font-size: 150%;
+	font-family:Raleway;
+	font-weight:bold;
+	vertical-align:middle;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+}#box{
+	width:60%;
+	margin:auto;
+	border: 2px solid;
+	border-radius: 15px;
+	border-color:white;
+    background-color:rgb(147,206,255);
+}#main{
+	width:60%;
+	height:50%;
+	margin:auto;
+	border: 2px solid;
+	border-radius: 15px;
+	border-color:white;
+    background-color:rgb(246,121,55);
+}#empty{
+		height:10%;
+}#text{
+	padding:6px;
+}a{
+	text-decoration:none;
+	color:rgb(246,121,55);
+	font-family:raleway;
+}a.present{
+font-weight:9000;
+}
+
+@font-face {
+font-family: "Raleway";
+src: url(Fonts/rwt.ttf) format("truetype");} 
