@@ -18,7 +18,7 @@ body, html{
 	font-family:Raleway;
 	font-weight:bold;
 	vertical-align:middle;
-	text-align:left;
+	text-align:center;
 	color:white;
 	display:inline;
 }h2.l1{
@@ -50,11 +50,13 @@ body, html{
 }#empty{
 		height:10%;
 }#text{
-	padding:6px;
+	padding:20px;
 }a{
 	text-decoration:none;
 	color:rgb(246,121,55);
 	font-family:Raleway;
+	font-size:150%;
+	font-weight:bold;
 }a.present{
 font-weight:9000;
 }
